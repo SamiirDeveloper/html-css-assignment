@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Html & css assignment - Contact Us</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <ul>
+            <li class="nav-item"><a href="home.html">Home</a></li>
+            <li class="nav-item"><a href="contact.html">Contact</a></li>
+            <li class="nav-item"><a href="about.html">About Us</a></li>
+        </ul>
+
+    </nav>
+
+    <!-- Basic contact form-->
+
+    
+
+    <form class="contact-form">
+        <h3 class="header-two">Please fill out the form below to contact us</h3>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email" required><br><br>
+
+        <label for="message">Message</label><br>
+        <textarea id="message" name="message" rows="3" cols="20"></textarea><br><br>
+
+        <form action="#" method="post">
+            <p>How did you hear about us</p>
+            <label>
+                <input type="checkbox" name="referrel" value="Coding Temple"> Coding Temple
+            </label>
+            <labe>
+                <input type="checkbox" name="referrel" value="Samiir Developes"> Samiir Developes
+            </labe>
+
+            <label>
+                <input type="checkbox" name="referrel" value="Friend">Friend
+            </label><br><br>
+            <input type="submit" value="Submit">
+    </form>
+</body>
+
+</html>

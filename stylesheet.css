@@ -1,0 +1,83 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    background-color: rgb(11, 13, 12);
+    color: aliceblue;
+}
+
+.navbar {
+    display: flex;
+    background-color: none
+
+
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    text-decoration: none;
+    color: white;
+    list-style: none;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: 1.5rem;
+
+}
+
+.navbar ul li {
+    margin-right: 15px;
+}
+
+.contact-form {
+    justify-content: center;
+    height: 100vh;
+}
+
+/* General table styling */
+table {
+  width: 90%;
+  margin: 30px auto;
+  border-collapse: collapse;
+  font-family: Arial, sans-serif;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Header row */
+thead {
+  background-color: #2c3e50;
+  color: #ffffff;
+}
+
+/* Header cells */
+th {
+  padding: 12px 15px;
+  text-align: left;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+/* Body cells */
+td {
+  padding: 12px 15px;
+  font-size: 15px;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Zebra striping for rows */
+tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+/* Hover effect on rows */
+tbody tr:hover {
+  background-color: #f1f1f1;
+  cursor: pointer;
+}
